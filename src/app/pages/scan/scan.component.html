@@ -1,0 +1,7 @@
+<div class="camera">
+  <zxing-scanner [formats]="formatsEnabled"
+                 [(device)]="currentDevice" (camerasFound)="onCamerasFound($event)"
+                 (scanSuccess)="onCodeResult($event)"></zxing-scanner>
+</div>
+<button (click)="changeCamera()">Changer la caméra</button>
+{{barcodeValue}}

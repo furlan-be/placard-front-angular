@@ -1,0 +1,102 @@
+@import "src/assets/css/colors.scss";
+
+div.header{
+  width: 100%;
+  height: 60px;
+  background-color: $dark-blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px){
+//Smartphone
+div.appTitle{
+  font-size: 15px;
+}
+}
+
+@media (max-width: 1024px) and (min-width: 480px){
+//Tablets
+div.appTitle{
+  font-size: 25px;
+}
+}
+
+@media (min-width: 1024px){
+//Desktop
+div.appTitle{
+  font-size: 35px;
+}
+}
+
+div.header-smartphone{
+  width: 100%;
+  height: 50px;
+  background-color: $dark-blue;
+  display: flex;
+}
+
+div.appTitle-smartphone{
+  color: $white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+
+div.appTitle {
+  color: $white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+div.title{
+  margin-left: 1em;
+}
+
+div.icon {
+  color: $white;
+  font-size: 35px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+div.links{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.primary-button{
+  margin-left: 1em;
+  margin-right: 1em;
+  color: $white;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+div.sidenav{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px 0px 12px;
+}
+
+.secondary-link{
+  color: $grey-1;
+  padding: 10px 5px 10px 5px;
+  border-bottom: solid 1px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  min-width: 180px;
+  column-gap: 10px;
+
+}

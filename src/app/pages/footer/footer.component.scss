@@ -1,0 +1,13 @@
+@import 'src/assets/css/colors';
+div.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: $dark-blue;
+  color: $white;
+  font-weight: 400;
+}
